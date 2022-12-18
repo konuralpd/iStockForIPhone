@@ -9,14 +9,36 @@
 /* Begin PBXBuildFile section */
 		040729C7294D13BD009ED76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040729C6294D13BD009ED76C /* AppDelegate.swift */; };
 		040729C9294D13BD009ED76C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040729C8294D13BD009ED76C /* SceneDelegate.swift */; };
-		040729CB294D13BD009ED76C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040729CA294D13BD009ED76C /* ViewController.swift */; };
-		040729CE294D13BD009ED76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040729CC294D13BD009ED76C /* Main.storyboard */; };
+		040729CB294D13BD009ED76C /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040729CA294D13BD009ED76C /* WatchListViewController.swift */; };
 		040729D1294D13BD009ED76C /* iStockForIPhone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040729CF294D13BD009ED76C /* iStockForIPhone.xcdatamodeld */; };
 		040729D3294D13BF009ED76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040729D2294D13BF009ED76C /* Assets.xcassets */; };
 		040729D6294D13BF009ED76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040729D4294D13BF009ED76C /* LaunchScreen.storyboard */; };
 		040729E1294D13BF009ED76C /* iStockForIPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040729E0294D13BF009ED76C /* iStockForIPhoneTests.swift */; };
 		040729EB294D13C0009ED76C /* iStockForIPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040729EA294D13C0009ED76C /* iStockForIPhoneUITests.swift */; };
 		040729ED294D13C0009ED76C /* iStockForIPhoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040729EC294D13C0009ED76C /* iStockForIPhoneUITestsLaunchTests.swift */; };
+		040729FF294D14AF009ED76C /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040729FE294D14AF009ED76C /* NewsViewController.swift */; };
+		04072A01294D14B9009ED76C /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A00294D14B9009ED76C /* SearchResultViewController.swift */; };
+		04072A03294D14C6009ED76C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A02294D14C6009ED76C /* DetailsViewController.swift */; };
+		04072A05294D1590009ED76C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A04294D1590009ED76C /* NetworkManager.swift */; };
+		04072A07294D159E009ED76C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A06294D159E009ED76C /* PersistenceManager.swift */; };
+		04072A09294D15AC009ED76C /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A08294D15AC009ED76C /* HapticsManager.swift */; };
+		04072A0C294D1B1D009ED76C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A0B294D1B1D009ED76C /* Extensions.swift */; };
+		04072A0E294D1D90009ED76C /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A0D294D1D90009ED76C /* SearchResultTableViewCell.swift */; };
+		04072A10294D25CA009ED76C /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A0F294D25CA009ED76C /* SearchResponse.swift */; };
+		04072A13294D3044009ED76C /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 04072A12294D3044009ED76C /* ProgressHUD */; };
+		04072A16294D38CF009ED76C /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 04072A15294D38CF009ED76C /* FloatingPanel */; };
+		04072A18294D3D8C009ED76C /* NewsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A17294D3D8C009ED76C /* NewsHeaderView.swift */; };
+		04072A1A294D45BB009ED76C /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A19294D45BB009ED76C /* NewsResponse.swift */; };
+		04072A1C294D4960009ED76C /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04072A1B294D4960009ED76C /* NewsTableViewCell.swift */; };
+		04072A1F294D4ABA009ED76C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 04072A1E294D4ABA009ED76C /* SDWebImage */; };
+		04A6D566294FB0070055CB72 /* MetricResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6D565294FB0070055CB72 /* MetricResponse.swift */; };
+		04A6D568294FB1210055CB72 /* StockDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6D567294FB1210055CB72 /* StockDetailHeaderView.swift */; };
+		04A6D56A294FB8370055CB72 /* MetricsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6D569294FB8370055CB72 /* MetricsCollectionViewCell.swift */; };
+		04A6D576294FC71C0055CB72 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 04A6D575294FC71C0055CB72 /* Charts */; };
+		04B8615E294E8D030067F14C /* MarketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8615D294E8D030067F14C /* MarketResponse.swift */; };
+		04B86160294E94A90067F14C /* WatchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8615F294E94A90067F14C /* WatchListTableViewCell.swift */; };
+		04B86162294E95C80067F14C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B86161294E95C80067F14C /* ChartView.swift */; };
+		04B86172294EAC320067F14C /* SDWebImageSVGCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 04B86171294EAC320067F14C /* SDWebImageSVGCoder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +62,7 @@
 		040729C3294D13BD009ED76C /* iStockForIPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iStockForIPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040729C6294D13BD009ED76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		040729C8294D13BD009ED76C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		040729CA294D13BD009ED76C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		040729CD294D13BD009ED76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040729CA294D13BD009ED76C /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
 		040729D0294D13BD009ED76C /* iStockForIPhone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iStockForIPhone.xcdatamodel; sourceTree = "<group>"; };
 		040729D2294D13BF009ED76C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040729D5294D13BF009ED76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,24 @@
 		040729E6294D13BF009ED76C /* iStockForIPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iStockForIPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040729EA294D13C0009ED76C /* iStockForIPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iStockForIPhoneUITests.swift; sourceTree = "<group>"; };
 		040729EC294D13C0009ED76C /* iStockForIPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iStockForIPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		040729FE294D14AF009ED76C /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		04072A00294D14B9009ED76C /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		04072A02294D14C6009ED76C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		04072A04294D1590009ED76C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04072A06294D159E009ED76C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		04072A08294D15AC009ED76C /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		04072A0B294D1B1D009ED76C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04072A0D294D1D90009ED76C /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		04072A0F294D25CA009ED76C /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		04072A17294D3D8C009ED76C /* NewsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeaderView.swift; sourceTree = "<group>"; };
+		04072A19294D45BB009ED76C /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		04072A1B294D4960009ED76C /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		04A6D565294FB0070055CB72 /* MetricResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricResponse.swift; sourceTree = "<group>"; };
+		04A6D567294FB1210055CB72 /* StockDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailHeaderView.swift; sourceTree = "<group>"; };
+		04A6D569294FB8370055CB72 /* MetricsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsCollectionViewCell.swift; sourceTree = "<group>"; };
+		04B8615D294E8D030067F14C /* MarketResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketResponse.swift; sourceTree = "<group>"; };
+		04B8615F294E94A90067F14C /* WatchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListTableViewCell.swift; sourceTree = "<group>"; };
+		04B86161294E95C80067F14C /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A6D576294FC71C0055CB72 /* Charts in Frameworks */,
+				04072A1F294D4ABA009ED76C /* SDWebImage in Frameworks */,
+				04072A13294D3044009ED76C /* ProgressHUD in Frameworks */,
+				04072A16294D38CF009ED76C /* FloatingPanel in Frameworks */,
+				04B86172294EAC320067F14C /* SDWebImageSVGCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +145,12 @@
 		040729C5294D13BD009ED76C /* iStockForIPhone */ = {
 			isa = PBXGroup;
 			children = (
-				040729C6294D13BD009ED76C /* AppDelegate.swift */,
-				040729C8294D13BD009ED76C /* SceneDelegate.swift */,
-				040729CA294D13BD009ED76C /* ViewController.swift */,
-				040729CC294D13BD009ED76C /* Main.storyboard */,
-				040729D2294D13BF009ED76C /* Assets.xcassets */,
-				040729D4294D13BF009ED76C /* LaunchScreen.storyboard */,
+				040729FD294D1433009ED76C /* App */,
+				040729FC294D1426009ED76C /* Managers */,
+				040729FB294D141A009ED76C /* Controllers */,
+				040729FA294D1414009ED76C /* Views */,
+				040729F9294D140F009ED76C /* Models */,
+				04072A0A294D1B0D009ED76C /* Utils */,
 				040729D7294D13BF009ED76C /* Info.plist */,
 				040729CF294D13BD009ED76C /* iStockForIPhone.xcdatamodeld */,
 			);
@@ -130,6 +174,71 @@
 			path = iStockForIPhoneUITests;
 			sourceTree = "<group>";
 		};
+		040729F9294D140F009ED76C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04072A0F294D25CA009ED76C /* SearchResponse.swift */,
+				04072A19294D45BB009ED76C /* NewsResponse.swift */,
+				04B8615D294E8D030067F14C /* MarketResponse.swift */,
+				04A6D565294FB0070055CB72 /* MetricResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		040729FA294D1414009ED76C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				040729D4294D13BF009ED76C /* LaunchScreen.storyboard */,
+				04072A0D294D1D90009ED76C /* SearchResultTableViewCell.swift */,
+				04072A17294D3D8C009ED76C /* NewsHeaderView.swift */,
+				04072A1B294D4960009ED76C /* NewsTableViewCell.swift */,
+				04B8615F294E94A90067F14C /* WatchListTableViewCell.swift */,
+				04B86161294E95C80067F14C /* ChartView.swift */,
+				04A6D567294FB1210055CB72 /* StockDetailHeaderView.swift */,
+				04A6D569294FB8370055CB72 /* MetricsCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		040729FB294D141A009ED76C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				040729CA294D13BD009ED76C /* WatchListViewController.swift */,
+				040729FE294D14AF009ED76C /* NewsViewController.swift */,
+				04072A00294D14B9009ED76C /* SearchResultViewController.swift */,
+				04072A02294D14C6009ED76C /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		040729FC294D1426009ED76C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				04072A04294D1590009ED76C /* NetworkManager.swift */,
+				04072A06294D159E009ED76C /* PersistenceManager.swift */,
+				04072A08294D15AC009ED76C /* HapticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		040729FD294D1433009ED76C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				040729C6294D13BD009ED76C /* AppDelegate.swift */,
+				040729C8294D13BD009ED76C /* SceneDelegate.swift */,
+				040729D2294D13BF009ED76C /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04072A0A294D1B0D009ED76C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04072A0B294D1B1D009ED76C /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +255,13 @@
 			dependencies = (
 			);
 			name = iStockForIPhone;
+			packageProductDependencies = (
+				04072A12294D3044009ED76C /* ProgressHUD */,
+				04072A15294D38CF009ED76C /* FloatingPanel */,
+				04072A1E294D4ABA009ED76C /* SDWebImage */,
+				04B86171294EAC320067F14C /* SDWebImageSVGCoder */,
+				04A6D575294FC71C0055CB72 /* Charts */,
+			);
 			productName = iStockForIPhone;
 			productReference = 040729C3294D13BD009ED76C /* iStockForIPhone.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +334,13 @@
 				Base,
 			);
 			mainGroup = 040729BA294D13BD009ED76C;
+			packageReferences = (
+				04072A11294D3044009ED76C /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				04072A14294D38CF009ED76C /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+				04072A1D294D4ABA009ED76C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				04B86170294EAC320067F14C /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */,
+				04A6D574294FC71C0055CB72 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 040729C4294D13BD009ED76C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,7 +359,6 @@
 			files = (
 				040729D6294D13BF009ED76C /* LaunchScreen.storyboard in Resources */,
 				040729D3294D13BF009ED76C /* Assets.xcassets in Resources */,
-				040729CE294D13BD009ED76C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +383,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040729CB294D13BD009ED76C /* ViewController.swift in Sources */,
+				04072A10294D25CA009ED76C /* SearchResponse.swift in Sources */,
+				04B8615E294E8D030067F14C /* MarketResponse.swift in Sources */,
+				040729CB294D13BD009ED76C /* WatchListViewController.swift in Sources */,
+				04072A1C294D4960009ED76C /* NewsTableViewCell.swift in Sources */,
 				040729C7294D13BD009ED76C /* AppDelegate.swift in Sources */,
+				04072A0E294D1D90009ED76C /* SearchResultTableViewCell.swift in Sources */,
+				04A6D56A294FB8370055CB72 /* MetricsCollectionViewCell.swift in Sources */,
 				040729C9294D13BD009ED76C /* SceneDelegate.swift in Sources */,
+				040729FF294D14AF009ED76C /* NewsViewController.swift in Sources */,
+				04072A18294D3D8C009ED76C /* NewsHeaderView.swift in Sources */,
+				04A6D568294FB1210055CB72 /* StockDetailHeaderView.swift in Sources */,
+				04072A05294D1590009ED76C /* NetworkManager.swift in Sources */,
+				04B86162294E95C80067F14C /* ChartView.swift in Sources */,
+				04072A03294D14C6009ED76C /* DetailsViewController.swift in Sources */,
+				04072A07294D159E009ED76C /* PersistenceManager.swift in Sources */,
+				04072A01294D14B9009ED76C /* SearchResultViewController.swift in Sources */,
+				04A6D566294FB0070055CB72 /* MetricResponse.swift in Sources */,
+				04072A1A294D45BB009ED76C /* NewsResponse.swift in Sources */,
+				04072A09294D15AC009ED76C /* HapticsManager.swift in Sources */,
+				04B86160294E94A90067F14C /* WatchListTableViewCell.swift in Sources */,
+				04072A0C294D1B1D009ED76C /* Extensions.swift in Sources */,
 				040729D1294D13BD009ED76C /* iStockForIPhone.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		040729CC294D13BD009ED76C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				040729CD294D13BD009ED76C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		040729D4294D13BF009ED76C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,9 +578,9 @@
 				INFOPLIST_FILE = iStockForIPhone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +588,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = appdevelop.iStockForIPhone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -474,9 +609,9 @@
 				INFOPLIST_FILE = iStockForIPhone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,9 +619,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = appdevelop.iStockForIPhone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -606,6 +744,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04072A11294D3044009ED76C /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		04072A14294D38CF009ED76C /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scenee/FloatingPanel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		04072A1D294D4ABA009ED76C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		04A6D574294FC71C0055CB72 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+		04B86170294EAC320067F14C /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSVGCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04072A12294D3044009ED76C /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04072A11294D3044009ED76C /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+		04072A15294D38CF009ED76C /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04072A14294D38CF009ED76C /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+		04072A1E294D4ABA009ED76C /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04072A1D294D4ABA009ED76C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		04A6D575294FC71C0055CB72 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04A6D574294FC71C0055CB72 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		04B86171294EAC320067F14C /* SDWebImageSVGCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04B86170294EAC320067F14C /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */;
+			productName = SDWebImageSVGCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		040729CF294D13BD009ED76C /* iStockForIPhone.xcdatamodeld */ = {
